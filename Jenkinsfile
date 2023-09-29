@@ -11,7 +11,7 @@ pipeline {
         }
         stage('Test') {
             steps {
-                echo 'Testing triggered by webhooks...hopefully'
+                echo 'Testing triggered by webhooks...hopefully2'
             }
         }
     }
