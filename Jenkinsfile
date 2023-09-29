@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo 'Building triggered by webhooks...'
+                echo 'Building triggered by webhooks... hopefully'
             }
         }
         stage('Test') {
